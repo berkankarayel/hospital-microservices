@@ -1,0 +1,10 @@
+<Project>
+  <!-- Central Package Management: tüm NuGet sürümleri yalnızca bu dosyada sabitlenir -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Paketler ilk kullanıldıkları PR'da, sürümü resmi kaynaktan doğrulanarak eklenir -->
+  </ItemGroup>
+</Project>
