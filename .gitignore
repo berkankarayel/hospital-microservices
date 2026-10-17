@@ -1,0 +1,32 @@
+# Yerel kalan proje dosyaları (GitHub'a gitmez)
+CLAUDE.md
+docs/architecture/
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+TestResults/
+coverage/
+
+# Node
+node_modules/
+dist/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Ortam ve secret'lar
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vs/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
